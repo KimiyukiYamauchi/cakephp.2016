@@ -7,10 +7,8 @@ $ sudo apt upgrade
 1. Apache2インストール&設定  
 	1. Apache2インストール  
 	$ sudo apt install apache2  
-	1. DocumentRootを/vagrant(共有フォルダ)に変更  
-	$ sudo mv /var/www/html /vagrant  
-	$ sudo rm -rf /var/www  
-	$ sudo ln -fs /vagrant /var/www
+	1. DocumentRootの所有者をvagrantに変更  
+	$ sudo chown  /var/www/html /vagrant  
 
 1. MySQLインストール&設定  
 	1. MySQLインストール(インストール途中でデータベース管理者(root)のパスワード設定)  
@@ -103,13 +101,3 @@ $ sudo apt install libicu-dev
 $ sudo apt install php5-intl
 1. curlのインストール  
 $ sudo apt install curl
-1. あとは以下の関連リンクの手順に従ってインストール
-
-## 関連リンク
-
-- <a href="http://book.cakephp.org/3.0/ja/installation.html" target="_blank">CakePHP 3.xのインストール手順</a>
-- <a href="http://book.cakephp.org/3.0/ja/orm/database-basics.html" target="_blank">CakePHP 3.x データベースの基本</a>
-- <a href="http://qiita.com/ysnsyks2/items/176cfddbdf1f79d65a75" target="_blank">CakePHP3.0をインストールしてみる(自分用めもめも</a>
-- <a href="http://libro.tuyano.com/index2?id=4536003" target="_blank">初心者のためのCakePHP3 プログラミング入門</a>
-- <a href="http://jmatsuzaki.com/archives/16505" target="_blank">CakePHP3.xでのAuthコンポーネントの使い方</a>
-- <a href="http://jquery.com/download/" target="_blank">jQueryダウンロード</a>
