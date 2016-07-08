@@ -8,7 +8,7 @@ $ sudo apt upgrade
 	1. Apache2インストール  
 	$ sudo apt install apache2  
 	1. DocumentRootの所有者をvagrantに変更  
-	$ sudo chown  /var/www/html /vagrant  
+	$ sudo chown -R vagrant.vagrant /var/www/html  
 
 1. MySQLインストール&設定  
 	1. MySQLインストール(インストール途中でデータベース管理者(root)のパスワード設定)  
@@ -34,7 +34,7 @@ $ sudo apt upgrade
 		::: ここまで :::  
 		1. 設定ファイルの再読み込み  
 		$ sudo service mysql restart
-		
+
 1. PHPイストール&設定
 	1. phpパッケージのインストール  
 	$ sudo apt install php5  
@@ -90,7 +90,7 @@ $ sudo vi /etc/apache2/sites-available/000-default.conf
 </Directory>
 ```
 
-## CakePHP 3.xインストール
+## CakePHP 3.xに必須のモジュールのインストール
 
 1. システムの更新  
 $ sudo apt update  
