@@ -2,6 +2,46 @@
 
 本リポジトリは選択授業「Learning Web Development Framework」に関する情報展開用です
 
+## 開発環境の設定
+
+### 1. Virtualboxのインストール
+
+#### ubuntu
+
+1. システムのアップデート  
+$ sudo apt update
+1. システムのアップグレード  
+$ sudo apt upgrade
+1. VirtualBoxのインストール  
+$ sudo apt install virtualbox
+
+#### mac
+
+1. VirtualBoxの入手&インストール  
+<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">ここから入手</a>
+
+### 2. Vagrantのインストール
+
+1. Vagrantの入手&インストール  
+<a href="https://www.vagrantup.com/downloads.html" target="_blank">ここから入手</a>  
+
+### 3. 仮想環境の設定
+
+1. vagrant box の追加  
+$ vagrant box add cakephp package.box
+1. 仮想環境を保存するディレクトリを作成し移動  
+$ mkdir ~/cakephp  
+$ cd ~/cakephp
+1. Vagrantfile作成  
+$ vagrant init cakephp
+1. Vagrantfilel編集
+$ vi Vagrantfile  
+で、ファイルを開き、以下のコメントアウトを外す  
+\# config.vm.network "forwarded_port", guest: 80, host: 8080
+1. 仮想環境起動  
+$ vagrant up
+1. ssh接続  
+$ vagrant ssh
 
 
 ## 授業で使用するサイトのリンク
