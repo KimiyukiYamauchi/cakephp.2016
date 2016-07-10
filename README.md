@@ -2,6 +2,11 @@
 
 本リポジトリは選択授業「Learning Web Development Framework」に関する情報展開用です
 
+## 評価方法
+
+- 出席 50%
+- 演習 50%
+
 ## 開発環境の設定
 
 ### 1. Virtualboxのインストール
