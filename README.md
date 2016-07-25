@@ -13,7 +13,8 @@
 
 1. 各自の環境にcakephpをインストール
 1. cakephpをgitのローカルリポジトリとして管理(add/commit)
-1. ローカルリポジトリをGitHubのリモートリポジトリとしてpush
+1. ローカルリポジトリをGitHubのリモートリポジトリとしてpush  
+リポジトリ名: cakephp.2015
 
 ### 7/11
 
