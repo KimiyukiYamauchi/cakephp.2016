@@ -79,3 +79,4 @@ $ vagrant ssh
 - <a href="http://book.cakephp.org/3.0/ja/orm.html" target="_blank">データベースアクセス & ORM</a>
 - <a href="http://jmatsuzaki.com/archives/16505" target="_blank">CakePHP3.xでのAuthコンポーネントの使い方</a>
 - <a href="https://www.phpmyadmin.net/downloads/" target="_blank">phpMyAdminダウンロード</a>
+- <a href="http://hapisupu.com/2015/10/mac-sftp-ftps-client-filezilla/" target="_blank">Mac用のSFTP・FTPSクライアントはFileZillaが無料でおすすめ！</a>
