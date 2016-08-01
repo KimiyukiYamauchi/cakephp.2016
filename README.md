@@ -69,6 +69,15 @@ $ vagrant up
 $ vagrant ssh
 
 
+### 4. FileZillaの設定
+
+1. 以下で接続
+	- ホスト: sftp://localhost
+	- ユーザ名： vagrant
+	- パスワード： vagrant
+	- ポート： 2222
+
+
 ## 授業で使用するサイトのリンク
 
 - <a href="http://book.cakephp.org/3.0/ja/installation.html" target="_blank">CakePHP 3.xのインストール手順</a>
