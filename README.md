@@ -52,7 +52,7 @@ $ sudo apt install virtualbox
 
 ### 3. 仮想環境の設定
 
-1. vagrant box の追加  
+1. boxの追加  
 $ vagrant box add cakephp package.box
 1. 仮想環境を保存するディレクトリを作成し移動  
 $ mkdir ~/cakephp  
